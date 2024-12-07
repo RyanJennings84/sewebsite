@@ -1,0 +1,189 @@
+#servicesPics {
+    overflow: hidden;
+    margin: 4rem auto;
+    min-height: calc(100vh - 4rem);
+    width: 100vw;
+    max-width: 80rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    padding: 0 2rem;
+    flex-wrap: wrap;
+    
+
+}
+
+.serviceTitle {
+    font-size: 5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+    
+
+}
+.servicesDesc {
+    font-weight: 300;
+    font-size: 1rem;
+
+}
+
+.servicesImgs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    max-width: 65rem;
+
+}
+
+.servicesImg {
+    object-fit: cover;
+    height: 20rem;
+    margin: 0.5rem;
+    
+} 
+@media screen and (max-width:585px) {
+    .servicesImg {
+        height: 48vw;
+    }
+    
+} 
+.Container1 {
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    max-width: 50vw;
+    
+  }
+  .desc1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    
+
+  }
+  
+
+  
+  .Container2 {
+    float: left;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+
+  }
+  .desc2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  .Container3 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  .desc3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  .Container4 {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  .desc4 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  .Container5 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  .desc5 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  .Container6 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  .desc6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  .Container7 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  .desc7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }
+  .Container8 {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    text-align: center;
+    color: white;
+    overflow: hidden;
+  }
+  .desc8 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+  }

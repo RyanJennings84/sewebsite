@@ -1,0 +1,100 @@
+#intro {
+    height: calc(100hv - 4rem);
+    width: 100vw;
+    max-width: 75rem;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+
+.bg {
+    position:absolute;
+    top: 20%;
+    right: 7%;
+    z-index: -1;
+    object-fit: cover;
+    height: 50vh;
+    box-shadow: 5px 4px 10px rgba(191, 190, 190, 0.5);
+    padding: .01rem;
+    border-radius: 1rem;
+    
+
+}
+
+.introContent {
+    height: 75vh;
+    width: 65vw;
+    padding: 0rem;
+    font-size: medium;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: teal;
+
+
+
+}
+
+
+
+.hello {
+    font-size: large;
+    font-weight: 600;
+    color: teal;
+ 
+
+}
+.introName {
+    color: teal;
+  
+}
+.introPara {
+    font-size: small;
+    font-weight: 300;
+    color: teal;
+    
+
+}
+.btn {
+    
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 1rem;
+
+
+}
+
+.btnImg {
+    
+    background: white;
+    margin: 1rem 0;
+    padding: 1rem 1rem;
+    border: none;
+    border-radius: 3rem;
+    max-width: 10rem;
+
+}
+
+
+    
+
+
+
+@media screen and (max-width:840px) {
+    .bg {
+    
+        top: 20%;
+    }
+    
+}
+@media (width > 980px) {
+
+    .introContent {
+        position: sticky;
+        top: 0.5rem; 
+        
+    }   
+}
+
+
