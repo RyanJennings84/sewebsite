@@ -14,16 +14,20 @@
 
 }
 
-.serviceTitle {
-    font-size: 5rem;
+#servicesTitle {
+    font-size: 2rem;
     font-weight: 600;
     margin: 1rem 0;
+    align-items: center;
+    text-align: center;
     
 
 }
 .servicesDesc {
     font-weight: 300;
     font-size: 1rem;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -50,6 +54,7 @@
     
 } 
 .Container1 {
+
     float: left;
     display: flex;
     flex-wrap: wrap;
@@ -62,11 +67,18 @@
     
   }
   .desc1 {
+    
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    background: rgba(0, 0, 0, 0.6 );
+    font-size: 1.25rem;
+    
+
+
+
     
 
   }
@@ -90,6 +102,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    background: rgba(0, 0, 0, 0.6 );
+    font-size: 1.25rem;
+
+
   }
   .Container3 {
     align-items: center;
@@ -106,6 +122,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    background: rgba(0, 0, 0, 0.6 );
+    font-size: 1.25rem;
+
+
   }
   .Container4 {
     align-items: center;
@@ -122,6 +142,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    background: rgba(0, 0, 0, 0.6 );
+    font-size: 1.25rem;
+
+
   }
   .Container5 {
     display: flex;
@@ -138,6 +162,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    background: rgba(0, 0, 0, 0.6 );
+    font-size: 1.25rem;
+
+
   }
   .Container6 {
     display: flex;
@@ -154,6 +182,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    background: rgba(0, 0, 0, 0.6 );
+    font-size: 1.25rem;
+
+
   }
   .Container7 {
     display: flex;
@@ -170,6 +202,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    background: rgba(0, 0, 0, 0.6 );
+    font-size: 1.25rem;
+
+
   }
   .Container8 {
     display: flex;
@@ -186,4 +222,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    background: rgba(0, 0, 0, 0.6 );
+
   }

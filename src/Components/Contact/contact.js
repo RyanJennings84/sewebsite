@@ -29,8 +29,10 @@ const Contact = () => {
                     <input type="tel" className="phone" placeholder='Your Number' name='from_phone'/>
                     <textarea className='msg' name="message" rows="5" placeholder='Your Message'></textarea>
                     <button type='submit' value='send' className="submitBtn">Submit</button>
-                    <div className="links">    
-                        <img src={FacebookIcon} alt="Facebook" className="link" />
+                    <div className="links">  
+                        <a href="http://facebook.com">
+                            <img src={FacebookIcon} alt="Facebook" className="link" />
+                            </a>    
                     </div>
                 </form>
             </div>
